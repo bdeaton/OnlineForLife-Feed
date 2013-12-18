@@ -1,0 +1,53 @@
+Bouncing Instructions on 1st Prayer:
+User can swipe each prayer, also the “bouncing” instructions (how it kind of bounces open randomly to show the user that they can pray-then-swipe). This feature is very important in making the app user friendly. We want the user to know what to do when they get to the prayer feed page. To my understanding, this feature is sort of giving the user a preview of how to swipe to pray.
+ 
+Swiping Effect:
+So when a user swipes an item from right to left it moves with their finger and then when it goes totally across from right to left, text that says “PRAYED!” pops up and then stays for a couple seconds - then that entire prayer disappears. You can see this effect in the “Iphone-main-swiped” Image.
+ 
+Background Images:
+We are going to be having different wide background images (rotating between about 10) for the orange background behind the “PRAYED” part of the prayer line. Make sure to take into consideration the extra potential width as the space is wider on tablets. The background image will probably be 950px wide but should also stretch if needed to fill the space (entire image NOT just stretch wide and look distorted. The entire image should zoom in, not just stretch wide.
+ 
+Map:
+ 
+Spinning Loading icon:
+Make the loading icons on the main page AND on the Statistics page “spin” when tapped. We will build in the loading logic. But we need to be able to easily make them spin or not by tapping them. In the design this is a “font awesome” icon.
+ 
+Animated Statistics Page:
+The 4 parts of the “statistics page 4-part circle” should animate every time the slide is open. So the circle you see on the prayer feed page will become complete after a user swipes to pray. What should happen is the 4 circle sections along with the text that’s assigned to it (the prayer) should fade in clockwise quickly. So boom, boom, boom, boom each section of that circle fades in until its full and complete like it is in the designs - all in like 1 second (so very fast).
+ 
+Statistics “Toggle” button:
+Under the statistics there are two buttons, one highlighted orange and one not. When either of these are clicked - the statistics section (4 part circle NOT the total babies) should animate and CHANGE the numbers to that sections numbers. Nothing else changes other then the text in the middle of the circle that will change to “friends impact”.
+ 
+Statistics Top +Numbers:
+These light grey numbers above the main ones need to “fade in/fade up/ popup” effect whatever looks best - we’ll probably need to play with a couple. But its purpose is to show people AFTER they click refresh how many extra are NOT in each category… They then should “disappear” after like 10 seconds…
+ 
+Updates on the Statistics Page:
+The entire statistics page/section can scroll up and down. The updates there should continue as you scroll down the page.
+ 
+Fixed footer tally on Main Page:
+We need a fixed element on the footer of the screen at all times at the bottom that has a text number and then 3 icons. I will get you these designs. Back-end will be building logic but we need to make sure that this will be fixed at the bottom of the page and allow the content behind it to freely flow. We like using this plugin:
+http://filamentgroup.github.io/Overthrow/#features
+ 
+All local assets:
+We need all local file assets, as we will be building this into a phone gap app in the end.
+ 
+NO landscape iPhone:
+We will NOT need a landscape iPhone option.
+ 
+MUST work in Android Browsers too:
+We MUST have it work in android browsers - as many supported as possible. If you need access to a tester so you can see how it looks/works on android I can send you access to one.
+ 
+Menu Area:
+That slideout menu area must also be scrollable - at least have the potential incase we need to add more buttons. The top menu item shows the “active” state and the others show “passive states” of the menu items.
+ 
+Menu Animation:
+Would be cool if the sub-menu items AND the logo did a very fast “fade in” after the menu button was tapped and the area slid open.
+ 
+Menu icon CSS:
+Notice the inner shadow on the menu icons. All icons are Font-Awesome icons.
+ 
+Color Pallet:
+Dark Blue-Grey: #313738
+Middle Blue-Grey: #707E80
+Light Blue-Grey: #707E80
+Main Orange: #C65131
